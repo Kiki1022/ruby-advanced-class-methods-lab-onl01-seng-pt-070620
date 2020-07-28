@@ -51,7 +51,7 @@ class Song
     song = Song.new
     song.name = name
     song.artist_name = artist_name
-    song.name
+    song.name.gsub!
   
   end
 # Song.new_from_filename("Thundercat - For Love I Come.mp3")
