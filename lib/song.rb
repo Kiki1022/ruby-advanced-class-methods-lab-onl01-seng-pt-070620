@@ -52,7 +52,7 @@ class Song
     song.name = name
     song.artist_name = artist_name
     
-    song.name
+    song
   
   end
 # Song.new_from_filename("Thundercat - For Love I Come.mp3")
