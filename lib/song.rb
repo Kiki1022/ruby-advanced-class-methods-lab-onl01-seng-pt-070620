@@ -60,6 +60,8 @@ def self.create_from_filename(filename)
     song_match = Song.new
     song_match.name = name
     song_match.artist_name = artist_name 
+    song_match.save
+    song_match
   
 end
 
