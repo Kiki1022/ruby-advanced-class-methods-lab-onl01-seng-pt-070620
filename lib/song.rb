@@ -64,7 +64,7 @@ def self.create_from_filename(filename)
     song_match
 end
 
- def destroy_all(array)
+ def self.destroy_all
    @@array.clear
 binding.pry
  end
