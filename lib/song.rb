@@ -47,6 +47,7 @@ class Song
     
     rows = filename.split(" - ")
     name = rows[0]
+    
     binding.pry
   end
 
