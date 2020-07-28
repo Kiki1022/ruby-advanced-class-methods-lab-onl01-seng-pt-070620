@@ -36,7 +36,7 @@ class Song
   end
   
   def self.find_or_create_by_name
-    if song.find_by_name == name 
+    if song.find_by_name.includes?name 
     else song.create_by_name
     end
   end
