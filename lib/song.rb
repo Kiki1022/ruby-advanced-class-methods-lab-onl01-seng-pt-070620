@@ -48,12 +48,15 @@ class Song
     rows = filename.split(" - ")
     artist_name = rows[0]
     name = rows[1]
-    song = Song.new
+    song = Song.new_from_filename
     song.name = name
-    artist_name = song.artist
+    song.artist_name = artist_name
   
   end
+# Song.new_from_filename("Thundercat - For Love I Come.mp3")
 
+#       expect(song.name).to eq("For Love I Come")
+#       expect(song.artist_name).to eq("Thundercat")
 
 
 
