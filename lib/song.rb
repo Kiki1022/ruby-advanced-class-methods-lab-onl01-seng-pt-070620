@@ -64,5 +64,7 @@ def self.create_from_filename(filename)
     song_match
 end
 
+def self.destroy_all
+end
 
 end
