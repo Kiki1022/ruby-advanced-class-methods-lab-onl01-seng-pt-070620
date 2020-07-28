@@ -65,7 +65,7 @@ def self.create_from_filename(filename)
 end
 
  def self.destroy_all
-   @@array.clear
+   @@all.clear
  end
 
 end
