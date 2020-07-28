@@ -49,7 +49,7 @@ class Song
     artist = rows[0]
     name = rows[1]
     song = Song.new
-    Song.name = name
+    song.name = name
     artist = song.artist
     
     
