@@ -49,6 +49,7 @@ class Song
     artist = rows[0]
     name = rows[1]
     
+    
   end
 
 
