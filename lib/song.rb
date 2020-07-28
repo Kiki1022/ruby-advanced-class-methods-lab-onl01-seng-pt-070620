@@ -66,7 +66,7 @@ end
 
  def destroy_all(array)
    @@array.clear
-   binding.pry
+   #binding.pry
  end
 
 end
