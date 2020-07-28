@@ -66,7 +66,7 @@ end
 
  def self.destroy_all
    @@array.clear
-binding.pry
+#binding.pry
  end
 
 end
