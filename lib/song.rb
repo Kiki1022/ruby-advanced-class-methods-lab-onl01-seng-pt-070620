@@ -43,7 +43,7 @@ class Song
     @@all.sort_by {|song| song.name}
   end
 
-  def initialize new_from_filename(filename)
+  def new_from_filename(filename)
     
   end
 
