@@ -44,22 +44,14 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    
     rows = filename.split(" - ")
     artist_name = rows[0]
     name = rows[1].gsub(".mp3", "")
     song = Song.new
     song.name = name
     song.artist_name = artist_name
-    
     song
-  
   end
-# Song.new_from_filename("Thundercat - For Love I Come.mp3")
-
-#       expect(song.name).to eq("For Love I Come")
-#       expect(song.artist_name).to eq("Thundercat")
-
 
 
 
